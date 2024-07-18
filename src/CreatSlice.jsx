@@ -1,6 +1,6 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { CreateSlice } from "@reduxjs/toolkit";
 
-export const CreatSlice = createSlice({
+export const CreatSlice = CreateSlice({
   name: "cart",
   initialState: {
     items: [], // Initialize items as an empty array
